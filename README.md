@@ -1,4 +1,5 @@
-# SkinDetection
+# Skin Detection Using OpenCV Python
+
 Skin detection using HSV &amp; YCbCr color space (Python, OpenCV)
 
 # About the precedure of detection
