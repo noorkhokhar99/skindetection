@@ -40,4 +40,14 @@ pip install -r requirements.txt
 
 
 ## Example Results
-![Example Results](https://github.com/noorkhokhar99/Avatar-mediapipe-opencv-python/blob/main/Screen%20Shot%201444-04-28%20at%2011.17.07%20PM.png)
+![Example Results](https://github.com/noorkhokhar99/skindetection/blob/main/3_global_result.jpg)
+
+![Example Results](https://github.com/noorkhokhar99/skindetection/blob/main/2_YCbCr.jpg)
+
+![Example Results](https://github.com/noorkhokhar99/skindetection/blob/main/1_HSV.jpg)
+
+
+
+
+
+
