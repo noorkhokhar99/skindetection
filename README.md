@@ -15,42 +15,29 @@ The ranges for a skin pixel used in this algorithm are as follows:
 				
         0<=Y<=255 and 135<=Cr<=180 and 85<=Cb<=135
 	
-Please cite this method as follow : 
 
-Djamila Dahmani, Mehdi Cheref, Slimane Larabi,
-Zero-sum game theory model for segmenting skin regions,
-Image and Vision Computing,
-Volume 99, 2020, 103925,ISSN 0262-8856,
-https://doi.org/10.1016/j.imavis.2020.103925.
+- Clone the repository.
+```
+git clone https://github.com/noorkhokhar99/skindetection.git
+```
+- Goto the cloned folder.
+```
+cd skindetection
 
-# Experimentation 
+```
+- Upgrade pip with mentioned command below.
+```
+pip install --upgrade pip
+```
+- Install requirements with mentioned command below.
+```
+pip install -r requirements.txt
+```
+- Run the code with mentioned command below.
 
-#### We have tested the perfomence of this methode using images from two diffrent database :
-
-##### HGR (Hand Gesture Recognition) Image Database
-
-URL : http://sun.aei.polsl.pl/~mkawulok/gestures/
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/ROC_HGR.png)
-
-##### SFA (A Human Skin Image Database based on FERET and AR Facial Images) Image Database
-
-URL : http://www.sel.eesc.usp.br/sfa/
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/ROC_SFA.png)
-
-### In the following images you will see the skin detection results of each color space threshold, and the result of their association
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/result1.png)
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/result2.png)
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/result3.png)
-
-### In the following images you will see the skin detection results of this methode using images from two databases SFA and HGR
-
-![alt text](https://github.com/CHEREF-Mehdi/SkinDetection/blob/master/Image/ReadMeImages/all_detection.png)
+` python SkinDetection.py`
 
 
 
-
+## Example Results
+![Example Results](https://github.com/noorkhokhar99/Avatar-mediapipe-opencv-python/blob/main/Screen%20Shot%201444-04-28%20at%2011.17.07%20PM.png)
